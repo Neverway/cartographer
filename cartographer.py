@@ -13,6 +13,10 @@ game_display = pygame.display.set_mode((display_width, display_height))
 # Window title
 pygame.display.set_caption('Cartographer')
 
+# Window icon
+window_icon = pygame.image.load('cartographer.png')
+pygame.display.set_icon(window_icon)
+
 # Game loop
 game_exit = False
 while not game_exit:
