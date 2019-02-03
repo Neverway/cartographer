@@ -10,6 +10,8 @@ display_height = 600
 # Create window
 game_display = pygame.display.set_mode((display_width, display_height))
 
+# Window title
+pygame.display.set_caption('Cartographer')
 
 # Game loop
 game_exit = False
